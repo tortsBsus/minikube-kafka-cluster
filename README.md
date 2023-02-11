@@ -47,9 +47,7 @@ kubectl apply -f 05-kafka-mirrormaker/
 Open kafka-manager:
 
 ``` terminal or powershell
-
 minikube service -n kafka-ca1 kafka-manager --url
-
 ```
 
 Add new cluster, and use the following data for `Cluster Zookeeper Hosts`:
